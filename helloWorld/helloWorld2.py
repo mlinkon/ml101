@@ -1,3 +1,4 @@
+#usign Decision Tree for classification of vehicles based on horsepower and number of seats 
 from sklearn import tree
 features = [[300,2],[450,2],[200,8],[150,9],[250,4],[300,4]]                            #[horsepower, number of seats in vehicle]
 labels = ["sports-car","sports-car","minivan","minivan","utility-car","utility-car"]    #features are input and labels are output.

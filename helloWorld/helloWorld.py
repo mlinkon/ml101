@@ -1,3 +1,4 @@
+#usign Decision Tree for classification of data
 from sklearn import tree
 features = [[140,1],[130,1],[160,0],[170,0]]  #[weight, texture], texture type : 1 is for smooth, 0 is for bumpy
 labels = ["apple","apple","orange","orange"]  #features are input and labels are output.
