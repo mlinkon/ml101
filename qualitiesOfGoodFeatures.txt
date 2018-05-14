@@ -1,0 +1,14 @@
+What are Features in Machine Learning?
+
+They are the variables in dataset are sufficent to make a decision. 
+For example: to predict house rent, size of apartment and location can be deciding factor.
+Same size aparmtent in Palo Alto, California is more likely to be expensive than Toronto, Canada
+
+Features are required as more relevant the feature is, more accuracy in the data classifier prediction.
+
+What are the qalities of features?
+1. Features should be a deciding factor and as informative as possible. Avoid those features which are not contributing in decision(kind of useless features).
+2. Independent features are best. Example of dependent feature is : Height in Inches and Height in centimeters. 
+   Remove highly co-related/redundant features.
+3. Features should be easy to understand. time required to travel between two cities can be easier when distance is in miles 
+   or kilometers as compared to predicting with both cities location given in latitude and longitude
